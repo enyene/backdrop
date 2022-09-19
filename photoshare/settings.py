@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['*']
 
 COR_ALLOW_ALL_ORIGINS = True
 CSRF_COOKIE_DOMAIN = '.railway.app' 
+CSRF_TRUSTED_ORIGINS = ['backdrop-production.up.railway.app']
 CORS_ALLOW_METHODS = [
 'DELETE',
 'GET',
