@@ -29,8 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 COR_ALLOW_ALL_ORIGINS = True
-CSRF_COOKIE_DOMAIN = '.railway.app' 
-CSRF_TRUSTED_ORIGINS = ['https://backdrop-production.up.railway.app/']
+CSRF_COOKIE_DOMAIN = 'https://backdrop-production.up.railway.app/' 
+CSRF_TRUSTED_ORIGINS = ['https://backdrop-production.up.railway.app']
 CORS_ALLOW_METHODS = [
 'DELETE',
 'GET',
