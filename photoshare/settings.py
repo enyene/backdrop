@@ -28,6 +28,29 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+COR_ALLOW_ALL_ORIGINS = True
+CSRF_COOKIE_DOMAIN = '.railway.app.' 
+CORS_ALLOW_METHODS = [
+'DELETE',
+'GET',
+'OPTIONS',
+'PATCH',
+'POST',
+'PUT',
+]
+
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
 
 # Application definition
 
