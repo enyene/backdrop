@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(9-xiw^=k(pbodkhlp0#q6eybm9le0c_a1*&$-!wy=1+iwam=b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['backdrop-production.up.railway.app']
 
 COR_ALLOW_ALL_ORIGINS = True
 CSRF_COOKIE_DOMAIN = '.railway.app' 
